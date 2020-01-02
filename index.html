@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono|Sulphur+Point">
+    <script src="https://kit.fontawesome.com/9c86db6092.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Furniture Store</title>
+</head>
+<body>
+    <!--------------Header/navigation-------------->
+    <div class="header">
+        <button class="nav link">&equiv;</button>
+        <div class="name-div">
+            <span class="name-span">Maverick</span>
+            <span class="name-span" id="second-name">Furnitures</span>
+        </div>
+        <div class="cart-div">
+            <button class="nav cart-icon"><i class="fas fa-shopping-cart"></i></button>
+            <span id="carted">0</span>
+        </div>
+    </div>
+
+    <!--------------collapsed sidebar-------------->
+    <div class="sidebar">
+        <button class="close-btn"><i class="fas fa-times-circle"></i></button>
+        <div class="cart-items-container">
+            <div class="sidebar-title"><h3>Your Cart</h3></div>
+            <div class="item-info" id="item-info">
+                <ul id="cart-list" class="cart-list">
+                </ul>
+            </div>
+            <div class="cart-summary">
+                <div class="total-price"><h4>Total: $0.00 </h4></div>
+                <button class="clear-cart">CLEAR CART</button>
+            </div>
+        </div>
+    </div>
+
+    <!--------------Top section-------------->
+    <div class="top">
+        <div class="center-div">
+            <h2>Furniture Collection</h2>
+            <button class="shop-now"><a href="#products">Shop Now</a></button>
+        </div>
+    </div>
+
+    <!--------------Product section-------------->
+    <div class="down">
+        <div class="first-down">
+            <a name="products"><h2>Our products</h2></a>
+        </div>
+        <div class="second-down" id="product-down">  
+            
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
+
+
